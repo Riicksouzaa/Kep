@@ -1,0 +1,32 @@
+[versions]
+#Plugins
+androidApplicationPlugin = "8.0.2"
+androidLibraryPlugin = "8.0.2"
+androidKotlinPlugin = "1.8.20"
+
+#Libs
+ktx = "1.10.1"
+appcompat = "1.6.1"
+material = "1.9.0"
+constraintlayout = "2.1.4"
+junit = "4.13.2"
+test-junit = "1.1.5"
+espresso = "3.5.1"
+
+[libraries]
+#Androidx
+androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "ktx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+#GOOGLE
+google-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+#Test
+test-junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junitext = { group = "androidx.test.ext", name = "junit", version.ref = "test-junit" }
+androidx-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidApplicationPlugin" }
+android-library = { id = "com.android.library", version.ref = "androidLibraryPlugin" }
+android-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "androidKotlinPlugin" }
