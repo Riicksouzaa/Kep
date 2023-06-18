@@ -2,10 +2,9 @@
 
 # What does CEP means?
 
-```markdown
-    ##EN
-    # Cep (Postal Address Code) is a numerical set consisting of eight digits, which guides and accelerates the forwarding, treatment and distribution of correspondence objects, through the distribution of their locations, public places, Post Office units, services, agencies public, companies and buildings.
-```
+- Cep (Postal Address Code) is a numerical set consisting of eight digits, which guides and accelerates the forwarding, treatment and distribution of
+  correspondence objects, through the distribution of their locations, public places, Post Office units, services, agencies public, companies and
+  buildings.
 
 # Why Kep?
 
